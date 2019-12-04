@@ -138,3 +138,47 @@ header a {
     object-fit: none;
     object-position: top center;
 }
+
+footer {
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.flex_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #08c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style: none;
+}
+
+footer nav li {
+    display: inline-block;
+    padding-right: 7.5px;
+    margin-right: 7.5px;
+    border-right: 1px solid gray;
+}
+
+footer nav img {
+    margin-top: -8px;
+}
+
+footer nav li:last-child {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
