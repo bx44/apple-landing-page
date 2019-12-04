@@ -37,3 +37,24 @@ header a {
 .watch_img:hover {
   object-position: bottom;
 }
+
+.thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.thumbs a {
+    display: block;
+}
+
+.thumbs a:not(:last-child) {
+    margin-right: 1px;
+}
+
+.thumbs img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: top center;
+}
