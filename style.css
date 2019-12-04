@@ -1,9 +1,89 @@
 body {
-  margin: 0 45px;
+  margin: 0;
+  min-width: 980px;
+  padding: 0 40px;
+  position: relative;
 }
 
 .head {
-  display: none;
+    max-width: 890px;
+    min-width: 600px;
+    height: 36px;
+    position: absolute;
+    top: 90px;
+    background: linear-gradient(to top, #666, #5e5e5e 50%, #707070 51%, #808080);
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.head ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.head ul > * {
+    display: block;
+    flex: 1 0 0;
+    padding: 3px 0;
+}
+
+.head a {
+    display: block;
+}
+
+.head img {
+    object-fit: none;
+    height: 30px;
+    width: 100%;
+}
+
+.head li:nth-child(1) img {
+    object-position: center top;
+}
+
+.head li:nth-child(2) img {
+    object-position: center -30px;
+}
+
+.head li:nth-child(3) img {
+    object-position: center -60px;
+}
+
+.head li:nth-child(4) img {
+    object-position: center -90px;
+}
+
+.head li:nth-child(5) img {
+    object-position: center -120px;
+}
+
+.head li:nth-child(6) img {
+    object-position: center -150px;
+}
+
+.head li:nth-child(7) img {
+    object-position: center -180px;
+}
+
+.head li:nth-child(8) img {
+    object-position: center -210px;
+}
+
+li.search {
+    flex-basis: auto;
+    padding: 8px 0;
+    text-align: center;
+}
+
+li.search img {
+    width: 140px;
+    height: 20px;
+    object-position: center top;
 }
 
 header {
