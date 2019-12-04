@@ -1,0 +1,39 @@
+body {
+  margin: 0 45px;
+}
+
+.head {
+  display: none;
+}
+
+header {
+  background-image: url('img/header.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 560px;
+  padding-top: 180px;
+  box-sizing: border-box;
+}
+
+header a {
+  display: block;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.title_img {
+  object-fit: none;
+  width: 980px;
+  height: 70px;
+}
+
+.watch_img {
+  object-fit: none;
+  width: 980px;
+  height: 32px;
+  object-position: top;
+}
+
+.watch_img:hover {
+  object-position: bottom;
+}
