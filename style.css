@@ -137,6 +137,7 @@ footer {
   font-size: 12px;
   margin: 15px auto;
   max-width: 1440px;
+  padding: 0 15px;
 }
 
 .flex_footer {
